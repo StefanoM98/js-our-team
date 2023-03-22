@@ -38,3 +38,10 @@ const team = [
         fotoProfilo: "barbara-ramos-graphic-designer.jpg"
     }
 ]
+
+console.log(team);
+
+for (let i = 0; i < team.length; i++) {
+    const curTeam = team[i];
+    console.log(curTeam);
+}
